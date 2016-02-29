@@ -1,0 +1,33 @@
+app_news:
+    resource: "@AppBundle/Controller/NewsController.php"
+    type:     annotation
+
+blogger_blog:
+    resource: "@BloggerBlogBundle/Resources/config/routing.yml"
+    prefix:   /
+
+scourgen_person_finder:
+    resource: "@ScourgenPersonFinderBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
+NelmioApiDocBundle:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix: /api/doc
+
+
+hwi_oauth_redirect:
+    resource: "@HWIOAuthBundle/Resources/config/routing/redirect.xml"
+    prefix:   /oauth/redirect
+hwi_oauth_login:
+    resource: "@HWIOAuthBundle/Resources/config/routing/login.xml"
+    prefix:   /oauth/login
+hwi_oauth_connect:
+    resource: "@HWIOAuthBundle/Resources/config/routing/connect.xml"
+    prefix:   /oauth/connect
+qq_login:
+    pattern: /oauth/login/check-qq
