@@ -8,7 +8,11 @@ namespace PackageVersions;
  *
  * This file is overwritten at every run of `composer install` or `composer update`.
  */
+<<<<<<< HEAD
 final class Versions_composer_tmp0
+=======
+final class Versions
+>>>>>>> ef3341ce1d889427c0b61466372d7436132ca23f
 {
     const VERSIONS = array (
   'doctrine/annotations' => 'v1.2.7@f25c8aab83e0c3e976fd7d19875f198ccf2f7535',
@@ -26,22 +30,32 @@ final class Versions_composer_tmp0
   'doctrine/lexer' => 'v1.0.1@83893c552fd2045dd78aef794c31e694c37c0b8c',
   'doctrine/migrations' => 'v1.4.0@abc571dadd45df42f19baac7a0a1a371216dd93d',
   'doctrine/orm' => 'v2.5.4@bc4ddbfb0114cb33438cc811c9a740d8aa304aab',
+<<<<<<< HEAD
   'friendsofsymfony/user-bundle' => 'dev-master@e770bfa2fd0fc665f55cd7cfeb34bddeffb892f4',
+=======
+>>>>>>> ef3341ce1d889427c0b61466372d7436132ca23f
   'hwi/oauth-bundle' => '0.4.0@86b5a876224b8a26707813aa94d3637886aa2041',
   'incenteev/composer-parameter-handler' => 'v2.1.2@d7ce7f06136109e81d1cb9d57066c4d4a99cf1cc',
   'ircmaxell/password-compat' => 'v1.0.4@5c5cde8822a69545767f7c7f3058cb15ff84614c',
   'jdorn/sql-formatter' => 'v1.2.17@64990d96e0959dff8e059dfcdc1af130728d92bc',
+<<<<<<< HEAD
   'jms/aop-bundle' => '1.2.0@78000d007e74283cc564a58e184d7f62548ad394',
   'jms/cg' => '1.1.0@0af1113c7409b8636c5244bbae10b2e0ff792e9c',
   'jms/di-extra-bundle' => '1.7.0@85a989bedcf22495c03bf94339ddc5e856bd9b46',
+=======
+>>>>>>> ef3341ce1d889427c0b61466372d7436132ca23f
   'jms/metadata' => '1.5.1@22b72455559a25777cfd28c4ffda81ff7639f353',
   'jms/parser-lib' => '1.0.0@c509473bc1b4866415627af0e1c6cc8ac97fa51d',
   'jms/serializer' => '1.1.0@fe13a1f993ea3456e195b7820692f2eb2b6bbb48',
   'jms/serializer-bundle' => '1.1.0@3e396c980545350c2efb65a50041d2a9f9d6562e',
+<<<<<<< HEAD
   'jms/translation-bundle' => '1.1.0@6f03035a38badaf8c48767c7664c3196df1eebdf',
   'knplabs/knp-components' => '1.3.2@4503275e4f1a0e9667aa65b0ebed842ef2d8d8ba',
   'knplabs/knp-menu' => 'v2.1.1@9917b999a3c3d3901386d60c4888b07679291031',
   'knplabs/knp-menu-bundle' => 'v2.1.1@90aff8e39274d1225dfa3bb7b1dd4e47b7312dca',
+=======
+  'knplabs/knp-components' => '1.3.2@4503275e4f1a0e9667aa65b0ebed842ef2d8d8ba',
+>>>>>>> ef3341ce1d889427c0b61466372d7436132ca23f
   'knplabs/knp-paginator-bundle' => '2.5.1@5147740faff4d32e6f42acf64475314c35320fa4',
   'kriswallsmith/assetic' => 'v1.3.2@9928f7c4ad98b234e3559d1049abd13387f86db5',
   'kriswallsmith/buzz' => 'v0.15@d4041666c3ffb379af02a92dabe81c904b35fab8',
@@ -50,7 +64,10 @@ final class Versions_composer_tmp0
   'mopa/bootstrap-bundle' => 'v3.0.0@0205959643168208f3b313b2e00ca643441850b4',
   'mopa/composer-bridge' => 'v1.5.0@58661a5c588ce9c3eff7d36c4030f6caa4de1ae2',
   'nelmio/api-doc-bundle' => '2.11.2@1ae2cfa9a50279d722d6b6e7b02322cef948d55d',
+<<<<<<< HEAD
   'nikic/php-parser' => 'v0.9.1@b1cc9ce676b4350b23d0fafc8244d08eee2fe287',
+=======
+>>>>>>> ef3341ce1d889427c0b61466372d7436132ca23f
   'ocramius/package-versions' => '1.0.3@a108adf44c4663bfb72858ea2fcd174acddd317e',
   'ocramius/proxy-manager' => '2.0.1@6c89b7bd6039d8047b1473e2074cb56baa4bc15d',
   'paragonie/random_compat' => 'v1.2.0@b0e69d10852716b2ccbdff69c75c477637220790',
@@ -75,13 +92,20 @@ final class Versions_composer_tmp0
   'symfony/swiftmailer-bundle' => 'v2.3.11@5e1a90f28213231ceee19c953bbebc5b5b95c690',
   'symfony/symfony' => 'v2.8.3@7a9a5fce7ce6e448e527f635463dda00761e12c2',
   'twbs/bootstrap' => 'v3.3.6@81df608a40bf0629a1dc08e584849bb1e43e0b7a',
+<<<<<<< HEAD
   'twig/extensions' => 'v1.3.0@449e3c8a9ffad7c2479c7864557275a32b037499',
+=======
+>>>>>>> ef3341ce1d889427c0b61466372d7436132ca23f
   'twig/twig' => 'v1.24.0@3e5aa30ebfbafd5951fb1b01e338e1800ce7e0e8',
   'zendframework/zend-code' => '3.0.1@09405eb04b7199733219cbf1f0803883a7bab842',
   'zendframework/zend-eventmanager' => '3.0.1@5c80bdee0e952be112dcec0968bad770082c3a6e',
   'sensio/generator-bundle' => 'v3.0.6@ac91535054d025937d897d78ebb5fc2da5e955a4',
   'symfony/phpunit-bridge' => 'v2.8.3@ee8ead4f78e21ed6c873d1cc19e141949d9ed493',
+<<<<<<< HEAD
   'apple/symfony2.8' => '9999999-dev@00419696c2585a2518c2c6f176c3181704869f9b',
+=======
+  'apple/symfony2.8' => '1.0.0.0@',
+>>>>>>> ef3341ce1d889427c0b61466372d7436132ca23f
 );
 
     private function __construct()

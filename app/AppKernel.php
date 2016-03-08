@@ -25,12 +25,16 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
             new Doctrine\Bundle\MigrationsBundle\DoctrineMigrationsBundle(),
             new Knp\Bundle\PaginatorBundle\KnpPaginatorBundle(),
+<<<<<<< HEAD
             new Knp\Bundle\MenuBundle\KnpMenuBundle(),
             new HWI\Bundle\OAuthBundle\HWIOAuthBundle(),
             new FOS\UserBundle\FOSUserBundle(),
             new JMS\TranslationBundle\JMSTranslationBundle(),
             new \JMS\AopBundle\JMSAopBundle(),
             new \JMS\DiExtraBundle\JMSDiExtraBundle($this),
+=======
+            new HWI\Bundle\OAuthBundle\HWIOAuthBundle(),
+>>>>>>> ef3341ce1d889427c0b61466372d7436132ca23f
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {

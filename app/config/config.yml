@@ -7,8 +7,13 @@ imports:
     - { resource: "@BloggerBlogBundle/Resources/config/config.yml"}
 # Put parameters here that don't need to change on each machine where the app is deployed
 # http://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
+<<<<<<< HEAD
 #parameters:
 #    locale: en
+=======
+parameters:
+    locale: en
+>>>>>>> ef3341ce1d889427c0b61466372d7436132ca23f
 
 framework:
     #esi:             ~
@@ -24,12 +29,16 @@ framework:
     templating:
         engines: ['twig']
         #assets_version: SomeVersionScheme
+<<<<<<< HEAD
     translator:
         fallback:   ['%locale%'] #如果某个语言没有对应的翻译，就显示fallbacks里的语言翻译
     default_locale:  "%locale%" # 假如用户没有明确表示想要看哪个语言的页面
                                 # 就认为当前用户是想看%locale%指定语言的页面
                                 # 用户可通过HTTP请求中的`accept_language`
                                 # 或者路由里的设置比如`domain.com/zh_CN/home`来指定，可以配置
+=======
+    default_locale:  "%locale%"
+>>>>>>> ef3341ce1d889427c0b61466372d7436132ca23f
     trusted_hosts:   ~
     trusted_proxies: ~
     session:
@@ -56,8 +65,13 @@ assetic:
         - BloggerBlogBundle
     filters:
         cssrewrite: ~
+<<<<<<< HEAD
 #        yui_css:
 #            jar: /usr/local/lib/node_modules/yuicompressor/build/yuicompressor-2.4.8.jarw
+=======
+        yui_css:
+            jar: /usr/local/lib/node_modules/yuicompressor/build/yuicompressor-2.4.8.jarw
+>>>>>>> ef3341ce1d889427c0b61466372d7436132ca23f
         less:
             node: /usr/local/bin/node
             node_paths: [/usr/local/lib/node_modules, /opt/lessc]
@@ -101,6 +115,7 @@ hwi_oauth:
             client_id: 101292429
             client_secret: 323681cc0f259767c9cf3eab33f8ac9a
 
+<<<<<<< HEAD
     # 与FOSUserBundle结合，并且将QQ返回的用户Id同我们创建的User类的qqId属性绑定
     fosub:
         properties:
@@ -133,3 +148,9 @@ services:
 knp_paginator:
     template:
         pagination: KnpPaginatorBundle:Pagination:twitter_bootstrap_v3_pagination.html.twig
+=======
+
+#services:
+#    hwi_oauth.user.provider.entity:
+#        class: HWI\Bundle\OAuthBundle\Security\Core\User\OAuthUserProvider
+>>>>>>> ef3341ce1d889427c0b61466372d7436132ca23f

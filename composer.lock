@@ -6,6 +6,7 @@
     ],
     "hash": "9f111d76a4e5d8986ef962809b4b10de",
     "content-hash": "ef559d1b3c4daea9100ec83b0ce21349",
+
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1019,6 +1020,7 @@
             "time": "2016-01-05 21:34:58"
         },
         {
+<<<<<<< HEAD
             "name": "friendsofsymfony/user-bundle",
             "version": "dev-master",
             "source": {
@@ -1088,6 +1090,8 @@
             "time": "2016-02-11 16:30:08"
         },
         {
+=======
+>>>>>>> ef3341ce1d889427c0b61466372d7436132ca23f
             "name": "hwi/oauth-bundle",
             "version": "0.4.0",
             "source": {
@@ -1371,6 +1375,7 @@
             "time": "2014-01-12 16:20:24"
         },
         {
+<<<<<<< HEAD
             "name": "jms/aop-bundle",
             "version": "1.2.0",
             "source": {
@@ -1533,6 +1538,8 @@
             "time": "2016-02-21 22:14:09"
         },
         {
+=======
+>>>>>>> ef3341ce1d889427c0b61466372d7436132ca23f
             "name": "jms/metadata",
             "version": "1.5.1",
             "source": {
@@ -1763,6 +1770,7 @@
             "time": "2015-11-10 12:26:42"
         },
         {
+<<<<<<< HEAD
             "name": "jms/translation-bundle",
             "version": "1.1.0",
             "target-dir": "JMS/TranslationBundle",
@@ -1837,6 +1845,8 @@
             "time": "2013-06-08 14:08:19"
         },
         {
+=======
+>>>>>>> ef3341ce1d889427c0b61466372d7436132ca23f
             "name": "knplabs/knp-components",
             "version": "1.3.2",
             "source": {
@@ -1905,6 +1915,7 @@
             "time": "2015-09-01 10:54:53"
         },
         {
+<<<<<<< HEAD
             "name": "knplabs/knp-menu",
             "version": "v2.1.1",
             "source": {
@@ -2028,6 +2039,8 @@
             "time": "2015-12-15 12:06:23"
         },
         {
+=======
+>>>>>>> ef3341ce1d889427c0b61466372d7436132ca23f
             "name": "knplabs/knp-paginator-bundle",
             "version": "2.5.1",
             "source": {
@@ -2549,6 +2562,7 @@
             "time": "2015-12-16 15:17:51"
         },
         {
+<<<<<<< HEAD
             "name": "nikic/php-parser",
             "version": "v0.9.1",
             "source": {
@@ -2588,6 +2602,8 @@
             "time": "2012-04-23 22:52:11"
         },
         {
+=======
+>>>>>>> ef3341ce1d889427c0b61466372d7436132ca23f
             "name": "ocramius/package-versions",
             "version": "1.0.3",
             "source": {
@@ -3979,6 +3995,7 @@
             "time": "2015-11-24 19:37:05"
         },
         {
+<<<<<<< HEAD
             "name": "twig/extensions",
             "version": "v1.3.0",
             "source": {
@@ -4031,6 +4048,8 @@
             "time": "2015-08-22 16:38:35"
         },
         {
+=======
+>>>>>>> ef3341ce1d889427c0b61466372d7436132ca23f
             "name": "twig/twig",
             "version": "v1.24.0",
             "source": {
@@ -4310,9 +4329,13 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
+<<<<<<< HEAD
     "stability-flags": {
         "friendsofsymfony/user-bundle": 20
     },
+=======
+    "stability-flags": [],
+>>>>>>> ef3341ce1d889427c0b61466372d7436132ca23f
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
