@@ -12,11 +12,8 @@ _errors:
 
 _main:
     resource: routing.yml
-<<<<<<< HEAD
 
 JMSTranslationBundle_ui:
     resource: @JMSTranslationBundle/Controller/
     type: annotation
     prefix: /_trans
-=======
->>>>>>> ef3341ce1d889427c0b61466372d7436132ca23f

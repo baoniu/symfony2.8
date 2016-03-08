@@ -30,11 +30,8 @@ hwi_oauth_connect:
     resource: "@HWIOAuthBundle/Resources/config/routing/connect.xml"
     prefix:   /oauth/connect
 qq_login:
-<<<<<<< HEAD
     pattern: /oauth/login/check-qq
 
 fos_user:
     resource: "@FOSUserBundle/Resources/config/routing/all.xml"
-=======
-    pattern: /oauth/login/check-qq
->>>>>>> ef3341ce1d889427c0b61466372d7436132ca23f
+

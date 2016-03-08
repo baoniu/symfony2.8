@@ -31,14 +31,6 @@ class NewsController extends Controller
         $paginator = $this->get('knp_paginator');
         $pagination = $paginator->paginate($qb,$request->query->getInt('page',1));
 
-<<<<<<< HEAD
-
-
-
-
-
-=======
->>>>>>> ef3341ce1d889427c0b61466372d7436132ca23f
         return $this->render('news/index.html.twig', array(
             'pagination' => $pagination,
         ));
@@ -112,7 +104,6 @@ class NewsController extends Controller
        ]);
 
     }
-<<<<<<< HEAD
 //    public function generateUUWiseURL()
 //    {
 //        $Data=array();
@@ -156,8 +147,6 @@ class NewsController extends Controller
 //        $currentDay=$currentDay+rand(1,2);
 //        $Data[]=$url;
 //    }
-=======
->>>>>>> ef3341ce1d889427c0b61466372d7436132ca23f
 
 
 
