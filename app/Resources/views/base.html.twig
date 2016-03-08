@@ -1,0 +1,43 @@
+{# app/Resources/views/base.html.twig #}
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Baoniu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{ asset('/css/man.css') }}">
+</head>
+<body>
+<!-- Add your site or application content here -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Baoniu</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="main-nav">
+          {{ knp_menu_render('AppBundle:Builder:navMenu',{'currentClass':'active'}) }}
+            {#{{ knp_menu_render('AppBundle:Builder:navMenu', {'currentClass': 'active'}) }}#}
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div class="content">
+        {% block body %}{% endblock %}
+    </div>
+</div>
+<script src="//apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="row">
+        <div class="col-sm-8">
+            <p><a class="btn btn-primary" href="{{ path('news_new') }}">+ 发表新闻</a> </p>
+            {% for entity in pagination %}
+                <section>
+                    <header><h2><a href="{{ path('news_show',{'id':entity.id}) }}">{{ entity.title }}</a> </h2></header>
+                    <p>{{ entity.body }}</p>
+                </section>
+            {% endfor %}
+            {{ knp_pagination_render(pagination) }}
+        </div>
+    </div>
+
+{% endblock %}
