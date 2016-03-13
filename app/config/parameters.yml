@@ -10,5 +10,4 @@ parameters:
     mailer_user: baoniuemail@gmail.com
     mailer_password: GoogLe021
     secret: a2e119514c99879bccc3612d4ab0de113f32bf53
-
     locale: zh_CN

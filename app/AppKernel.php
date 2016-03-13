@@ -31,6 +31,7 @@ class AppKernel extends Kernel
             new JMS\TranslationBundle\JMSTranslationBundle(),
             new \JMS\AopBundle\JMSAopBundle(),
             new \JMS\DiExtraBundle\JMSDiExtraBundle($this),
+            new Gregwar\CaptchaBundle\GregwarCaptchaBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {
